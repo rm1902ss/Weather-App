@@ -45,19 +45,19 @@ window.addEventListener('load', () => {
 
 
                 if (id < 250) {
-                    tempIcon.src = './icons/tstorms.svg'
+                    tempIcon.src = './icons/tstorms.png'
                 } else if (id < 350) {
-                    tempIcon.src = './icons/chancerain.svg'
+                    tempIcon.src = './icons/chancerain.png'
                 } else if (id < 550) {
-                    tempIcon.src = './icons/rain.svg'
+                    tempIcon.src = './icons/rain.png'
                 } else if (id < 650) {
-                    tempIcon.src = './icons/snow.svg'
+                    tempIcon.src = './icons/snow.png'
                 } else if (id < 799) {
-                    tempIcon.src = './icons/hazy.svg'
+                    tempIcon.src = './icons/hazy.png'
                 } else if (id === 800) {
-                    tempIcon.src = './icons/clear.svg'
+                    tempIcon.src = './icons/clear.png'
                 } else if (id >= 801) {
-                    tempIcon.src = './icons/cloudy.svg'
+                    tempIcon.src = './icons/cloudy.png'
                 }
 
                 degreeSection.addEventListener('click', () => {
